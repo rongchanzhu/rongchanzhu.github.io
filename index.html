@@ -43,6 +43,13 @@
             margin-bottom: 5px;
         }
         
+        .personal-info .chinese-name {
+            font-size: 1.8rem;
+            font-weight: 400;
+            margin-bottom: 5px;
+            opacity: 0.9;
+        }
+        
         .personal-info h2 {
             font-size: 1.5rem;
             font-weight: 400;
@@ -156,6 +163,18 @@
             border-left: 3px solid #4a6491;
         }
         
+        .publication-category {
+            margin-bottom: 40px;
+        }
+        
+        .publication-category h4 {
+            color: #4a6491;
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #eaeaea;
+        }
+        
         .publication-list {
             list-style-type: none;
             max-height: 800px;
@@ -181,35 +200,27 @@
             margin-bottom: 20px;
             padding-bottom: 20px;
             border-bottom: 1px solid #eee;
+            padding-left: 0;
         }
         
         .publication-item:last-child {
             border-bottom: none;
         }
         
-        .pub-number {
-            display: inline-block;
-            background-color: #4a6491;
-            color: white;
-            width: 30px;
-            height: 30px;
-            text-align: center;
-            line-height: 30px;
-            border-radius: 50%;
-            margin-right: 10px;
-            font-size: 0.9rem;
-        }
-        
         .pub-title {
             font-weight: 600;
-            margin-bottom: 5px;
-            display: inline-block;
+            margin-bottom: 8px;
+            display: block;
+            font-size: 1.05rem;
+            color: #2c3e50;
+            line-height: 1.4;
         }
         
         .pub-authors {
             color: #666;
             margin-bottom: 5px;
             font-size: 0.95rem;
+            font-style: italic;
         }
         
         .pub-venue {
@@ -318,6 +329,10 @@
                 font-size: 2.2rem;
             }
             
+            .personal-info .chinese-name {
+                font-size: 1.5rem;
+            }
+            
             .main-content, .sidebar {
                 padding: 20px;
             }
@@ -329,6 +344,7 @@
         <div class="header-content">
             <div class="personal-info">
                 <h1>Rongchan Zhu</h1>
+                <div class="chinese-name">朱蓉禅</div>
                 <h2>Professor of Mathematics</h2>
                 <div class="contact-info">
                     <div><i class="fas fa-university"></i> Beijing Institute of Technology</div>
@@ -365,327 +381,362 @@
             
             <section id="publications">
                 <h3>Publications</h3>
-                <ul class="publication-list">
-                    <li class="publication-item">
-                        <span class="pub-number">32</span>
-                        <span class="pub-title">Langevin dynamics of lattice Yang-Mills-Higgs and applications</span>
-                        <div class="pub-authors">with Hao Shen, Xiangchan Zhu</div>
-                        <div class="pub-venue">To appear in Communications in Mathematical Physics</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/2401.13299" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <span class="pub-number">31</span>
-                        <span class="pub-title">Non-unique ergodicity for deterministic and stochastic 3D Navier-Stokes and Euler equations</span>
-                        <div class="pub-authors">with Martina Hofmanová, Xiangchan Zhu</div>
-                        <div class="pub-venue">Archive for Rational Mechanics and Analysis, (2025) 249:33</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/2208.08290" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <span class="pub-number">30</span>
-                        <span class="pub-title">Global well-posedness for 2D generalized Parabolic Anderson Model via paracontrolled calculus</span>
-                        <div class="pub-authors">with Hao Shen, Xiangchan Zhu</div>
-                        <div class="pub-venue">To appear in Stochastics and Partial Differential Equations: Analysis and Computations</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/2402.19137" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <span class="pub-number">29</span>
-                        <span class="pub-title">Anomalous and total dissipation due to advection by solutions of randomly forced Navier-Stokes equations</span>
-                        <div class="pub-authors">with Martina Hofmanová, Umberto Pappalettera, Xiangchan Zhu</div>
-                        <div class="pub-venue">The Annals of applied probability, 35(5): 3119-3149</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/2305.08090" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <span class="pub-number">28</span>
-                        <span class="pub-title">Large N limit and 1/N expansion of invariant observables in O(N) linear σ-model via SPDE</span>
-                        <div class="pub-authors">with Hao Shen, Xiangchan Zhu</div>
-                        <div class="pub-venue">Probability Theory and Related Fields, 191, 2025, no.3-4, 853-932</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/2306.05166" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <span class="pub-number">27</span>
-                        <span class="pub-title">Non-uniqueness of Leray-Hopf solutions for stochastic forced Navier-Stokes equations</span>
-                        <div class="pub-authors">with Martina Hofmanová, Xiangchan Zhu</div>
-                        <div class="pub-venue">Electron. J. Probab. 29 (2024) 195, 1-27</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/2309.03668" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <span class="pub-number">26</span>
-                        <span class="pub-title">Surface quasi-geostrophic equation perturbed by derivatives of space-time white noise</span>
-                        <div class="pub-authors">with Martina Hofmanová, Xiaoyutao Luo, Xiangchan Zhu</div>
-                        <div class="pub-venue">Mathematische Annalen 390:5111-5152, 2024</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/2309.03668" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <span class="pub-number">25</span>
-                        <span class="pub-title">Singular kinetic equations and applications</span>
-                        <div class="pub-authors">with Zimo Hao, Xicheng Zhang, Xiangchan Zhu</div>
-                        <div class="pub-venue">The Annals of Probability Vol. 52, No. 2, 576--657, 2024</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/2108.05042" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <span class="pub-number">24</span>
-                        <span class="pub-title">A new derivation of the finite N master loop equation for lattice Yang-Mills</span>
-                        <div class="pub-authors">with Hao Shen, Scott Smith</div>
-                        <div class="pub-venue">Electron. J. Probab. 29 no. 29, 1--18, 2024</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/2202.00880" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <span class="pub-number">23</span>
-                        <span class="pub-title">Gaussian fluctuations for interacting particle systems with singular kernels</span>
-                        <div class="pub-authors">with Zhenfu Wang, Xianliang Zhao</div>
-                        <div class="pub-venue">Archive for Rational Mechanics and Analysis, (2023) 247:101</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/2105.13201" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <span class="pub-number">22</span>
-                        <span class="pub-title">A class of supercritical/critical singular stochastic PDEs: Existence, non-uniqueness, non-Gaussianity, non-unique ergodicity</span>
-                        <div class="pub-authors">with Martina Hofmanová, Xiangchan Zhu</div>
-                        <div class="pub-venue">J. Funct. Anal. 285(2023), no. 5, Paper No. 110011</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/2205.13378" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <span class="pub-number">21</span>
-                        <span class="pub-title">Non-uniqueness in law of stochastic 3D Navier-Stokes equations</span>
-                        <div class="pub-authors">with Martina Hofmanová, Xiangchan Zhu</div>
-                        <div class="pub-venue">J. Eur. Math. Soc. 26, 163--260 (2024)</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/1912.11841" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <span class="pub-number">20</span>
-                        <span class="pub-title">Global existence and non-uniqueness for 3D Navier-Stokes equations with space-time white noise</span>
-                        <div class="pub-authors">with Martina Hofmanová, Xiangchan Zhu</div>
-                        <div class="pub-venue">Archive for Rational Mechanics and Analysis, 247 (2023), no. 3, Paper No. 46</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/2112.14093" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <span class="pub-number">19</span>
-                        <span class="pub-title">A Stochastic Analysis Approach to Lattice Yang-Mills at Strong Coupling</span>
-                        <div class="pub-authors">with Hao Shen, Xiangchan Zhu</div>
-                        <div class="pub-venue">Communications in Mathematical Physics, 400 (2023), no. 2, 805--851</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/2204.12737" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <span class="pub-number">18</span>
-                        <span class="pub-title">Global-in-time probabilistically strong and Markov solutions to stochastic 3D Navier-Stokes equations: existence and non-uniqueness</span>
-                        <div class="pub-authors">with Martina Hofmanová, Xiangchan Zhu</div>
-                        <div class="pub-venue">The Annals of Probability, 2023, Vol. 51, No. 2, 524-579</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/2104.09889" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <span class="pub-number">17</span>
-                        <span class="pub-title">An SPDE approach to perturbation theory of Φ42: asymptoticity and short distance behavior</span>
-                        <div class="pub-authors">with Hao Shen, Xiangchan Zhu</div>
-                        <div class="pub-venue">The Annals of Applied Probability, 33(4): 2600-2642, 2023</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/2108.11312" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <span class="pub-number">16</span>
-                        <span class="pub-title">Large N Limit of the O(N) Linear Sigma Model in 3D</span>
-                        <div class="pub-authors">with Hao Shen, Xiangchan Zhu</div>
-                        <div class="pub-venue">Communications in Mathematical Physics, 394 no.3, 953--1009, 2022</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/2102.02628" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <span class="pub-number">15</span>
-                        <span class="pub-title">Singular HJB equations with applications to KPZ on the real line</span>
-                        <div class="pub-authors">with Xicheng Zhang, Xiangchan Zhu</div>
-                        <div class="pub-venue">Probability Theory and Related Fields, 183 no. 3-4, 789--869, 2022</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/2007.06783" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <span class="pub-number">14</span>
-                        <span class="pub-title">Large N Limit of the O(N) Linear Sigma Model via Stochastic Quantization</span>
-                        <div class="pub-authors">with Hao Shen, Scott Smith, Xiangchan Zhu</div>
-                        <div class="pub-venue">The Annals of Probability, 50(1), 131-202, 2022</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/2005.09279" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <span class="pub-number">13</span>
-                        <span class="pub-title">On ill- and well-posedness of dissipative martingale solutions to stochastic 3D Euler equations</span>
-                        <div class="pub-authors">with Martina Hofmanová, Xiangchan Zhu</div>
-                        <div class="pub-venue">Commun. Pure Appl. Math. Vol. LXXV, 2446--2510 (2022)</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/2009.09552" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <span class="pub-number">12</span>
-                        <span class="pub-title">Conservative stochastic 2-dimensional Cahn-Hilliard equation</span>
-                        <div class="pub-authors">with Michael Röckner, Huanyu Yang</div>
-                        <div class="pub-venue">The Annals of Applied Probability, Vol. 31, No. 3, 1336-1375, 2021</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/1802.04141" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <span class="pub-number">11</span>
-                        <span class="pub-title">Stochastic heat equation for infinite string with values in manifold</span>
-                        <div class="pub-authors">with Xin Chen, Bo Wu, Xiangchan Zhu</div>
-                        <div class="pub-venue">Transactions of the American Mathematical Society, 374(1):407-452, 2021</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/1812.01942" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <span class="pub-number">10</span>
-                        <span class="pub-title">Stochastic Heat Equations with Values in a Manifold via Dirichlet Forms</span>
-                        <div class="pub-authors">with Michael Röckner, Bo Wu, Xiangchan Zhu</div>
-                        <div class="pub-venue">SIAM J. Math. Anal., 52(3):2237-2274, 2020</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/1711.09570" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <span class="pub-number">9</span>
-                        <span class="pub-title">Dirichlet form associated with the Φ43 model</span>
-                        <div class="pub-authors">with Xiangchan Zhu</div>
-                        <div class="pub-venue">Electron. J. Probab. 23, no. 78, 1-31, 2018</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/1703.09987" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <span class="pub-number">8</span>
-                        <span class="pub-title">Lattice approximation to the dynamical Φ43 model</span>
-                        <div class="pub-authors">with Xiangchan Zhu</div>
-                        <div class="pub-venue">Ann. Probab. 46 no. 1, 397-455, 2018</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/1508.05613" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <span class="pub-number">7</span>
-                        <span class="pub-title">Ergodicity for the Stochastic Quantization Problems on the 2D-Torus</span>
-                        <div class="pub-authors">with Michael Röckner, Xiangchan Zhu</div>
-                        <div class="pub-venue">Comm. Math. Phys. 352 no. 3, 1061--1090, 2017</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/1606.02102" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <span class="pub-number">6</span>
-                        <span class="pub-title">Restricted Markov uniqueness for the stochastic quantization of P(Φ)2 and its applications</span>
-                        <div class="pub-authors">with Michael Röckner, Xiangchan Zhu</div>
-                        <div class="pub-venue">J. Funct. Anal. 272 no. 10, 4263-4303, 2017</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/1511.08030" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <span class="pub-number">5</span>
-                        <span class="pub-title">Random attractor associated with the quasi-geostrophic equation</span>
-                        <div class="pub-authors">with Xiangchan Zhu</div>
-                        <div class="pub-venue">J. Dynam. Differential Equations 29, no. 1, 289--322, 2017</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/1303.5970" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <span class="pub-number">4</span>
-                        <span class="pub-title">Three dimensional Navier-Stokes equation driven by space-time white noise</span>
-                        <div class="pub-authors">with Xiangchan Zhu</div>
-                        <div class="pub-venue">Journal of Differential Equations, 259, 4443--4508, 2015</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/1406.0047" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <span class="pub-number">3</span>
-                        <span class="pub-title">Sub- and supercritical stochastic quasi-geostrophic equation</span>
-                        <div class="pub-authors">with Michael Röckner, Xiangchan Zhu</div>
-                        <div class="pub-venue">The Annals of Probability, 43, No. 3, 1202--1273, 2015</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/1110.1984" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <span class="pub-number">2</span>
-                        <span class="pub-title">Local existence and non-explosion of solutions for stochastic fractional partial differential equations driven by multiplicative noise</span>
-                        <div class="pub-authors">with Michael Röckner, Xiangchan Zhu</div>
-                        <div class="pub-venue">Stochastic Processes and their Applications, 124 1974--2002, 2014</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/1307.4392" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <span class="pub-number">1</span>
-                        <span class="pub-title">The stochastic reflection problem on a convex set of a Hilbert space and BV functions in a Gelfand triple</span>
-                        <div class="pub-authors">with Michael Röckner, Xiangchan Zhu</div>
-                        <div class="pub-venue">The Annals of Probability, 40, 1759-1794, 2012</div>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/1011.3996" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                        </div>
-                    </li>
-                </ul>
+                
+                <!-- Stochastic quantization and quantum fields -->
+                <div class="publication-category">
+                    <h4>Stochastic Quantization and Quantum Fields</h4>
+                    <ul class="publication-list">
+                        <!-- 新增论文1 -->
+                        <li class="publication-item">
+                            <span class="pub-title">Makeenko-Migdal equations for lattice Yang-Mills-Higgs</span>
+                            <div class="pub-authors">with Hao Shen, Scott Andrew Smith</div>
+                            <div class="pub-venue">arXiv preprint</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/2512.00570" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv:2512.00570</a>
+                            </div>
+                        </li>
+                        
+                        <!-- 新增论文2 -->
+                        <li class="publication-item">
+                            <span class="pub-title">Large N limit of the Langevin dynamics for the spin O(N) model</span>
+                            <div class="pub-authors">with Wenjie Ye</div>
+                            <div class="pub-venue">arXiv preprint</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/2509.13817" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv:2509.13817</a>
+                            </div>
+                        </li>
+                        
+                        <!-- 新增论文3 -->
+                        <li class="publication-item">
+                            <span class="pub-title">Φ43 Theory from many-body quantum Gibbs states</span>
+                            <div class="pub-authors">with Phan Thành Nam, Xiangchan Zhu</div>
+                            <div class="pub-venue">arXiv preprint</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/2502.04884" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv:2502.04884</a>
+                            </div>
+                        </li>
+                        
+                        <!-- 新增论文4 -->
+                        <li class="publication-item">
+                            <span class="pub-title">Makeenko-Migdal equations for 2D Yang-Mills: from lattice to continuum</span>
+                            <div class="pub-authors">with Hao Shen, Scott A. Smith</div>
+                            <div class="pub-venue">arXiv preprint</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/2412.15422" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv:2412.15422</a>
+                            </div>
+                        </li>
+                        
+                        <li class="publication-item">
+                            <span class="pub-title">Langevin dynamics of lattice Yang-Mills-Higgs and applications</span>
+                            <div class="pub-authors">with Hao Shen, Xiangchan Zhu</div>
+                            <div class="pub-venue">To appear in Communications in Mathematical Physics</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/2401.13299" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                        
+                        <li class="publication-item">
+                            <span class="pub-title">Large N limit and 1/N expansion of invariant observables in O(N) linear σ-model via SPDE</span>
+                            <div class="pub-authors">with Hao Shen, Xiangchan Zhu</div>
+                            <div class="pub-venue">Probability Theory and Related Fields, 191, 2025, no.3-4, 853-932</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/2306.05166" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                        
+                        <li class="publication-item">
+                            <span class="pub-title">A new derivation of the finite N master loop equation for lattice Yang-Mills</span>
+                            <div class="pub-authors">with Hao Shen, Scott Smith</div>
+                            <div class="pub-venue">Electron. J. Probab. 29 no. 29, 1--18, 2024</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/2202.00880" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                        
+                        <li class="publication-item">
+                            <span class="pub-title">A Stochastic Analysis Approach to Lattice Yang-Mills at Strong Coupling</span>
+                            <div class="pub-authors">with Hao Shen, Xiangchan Zhu</div>
+                            <div class="pub-venue">Communications in Mathematical Physics, 400 (2023), no. 2, 805--851</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/2204.12737" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                        
+                        <li class="publication-item">
+                            <span class="pub-title">An SPDE approach to perturbation theory of Φ42: asymptoticity and short distance behavior</span>
+                            <div class="pub-authors">with Hao Shen, Xiangchan Zhu</div>
+                            <div class="pub-venue">The Annals of Applied Probability, 33(4): 2600-2642, 2023</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/2108.11312" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                        
+                        <li class="publication-item">
+                            <span class="pub-title">Large N Limit of the O(N) Linear Sigma Model in 3D</span>
+                            <div class="pub-authors">with Hao Shen, Xiangchan Zhu</div>
+                            <div class="pub-venue">Communications in Mathematical Physics, 394 no.3, 953--1009, 2022</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/2102.02628" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                        
+                        <li class="publication-item">
+                            <span class="pub-title">Large N Limit of the O(N) Linear Sigma Model via Stochastic Quantization</span>
+                            <div class="pub-authors">with Hao Shen, Scott Smith, Xiangchan Zhu</div>
+                            <div class="pub-venue">The Annals of Probability, 50(1), 131-202, 2022</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/2005.09279" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                        
+                        <li class="publication-item">
+                            <span class="pub-title">Dirichlet form associated with the Φ43 model</span>
+                            <div class="pub-authors">with Xiangchan Zhu</div>
+                            <div class="pub-venue">Electron. J. Probab. 23, no. 78, 1-31, 2018</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/1703.09987" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                        
+                        <li class="publication-item">
+                            <span class="pub-title">Lattice approximation to the dynamical Φ43 model</span>
+                            <div class="pub-authors">with Xiangchan Zhu</div>
+                            <div class="pub-venue">Ann. Probab. 46 no. 1, 397-455, 2018</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/1508.05613" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                        
+                        <li class="publication-item">
+                            <span class="pub-title">Ergodicity for the Stochastic Quantization Problems on the 2D-Torus</span>
+                            <div class="pub-authors">with Michael Röckner, Xiangchan Zhu</div>
+                            <div class="pub-venue">Comm. Math. Phys. 352 no. 3, 1061--1090, 2017</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/1606.02102" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                        
+                        <li class="publication-item">
+                            <span class="pub-title">Restricted Markov uniqueness for the stochastic quantization of P(Φ)2 and its applications</span>
+                            <div class="pub-authors">with Michael Röckner, Xiangchan Zhu</div>
+                            <div class="pub-venue">J. Funct. Anal. 272 no. 10, 4263-4303, 2017</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/1511.08030" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Stochastic Fluid dynamics -->
+                <div class="publication-category">
+                    <h4>Stochastic Fluid Dynamics</h4>
+                    <ul class="publication-list">
+                        <!-- 新增论文5 -->
+                        <li class="publication-item">
+                            <span class="pub-title">A proof of Onsager's conjecture for the stochastic 3D Euler equations</span>
+                            <div class="pub-authors">with Huaxiang Lü, Lin Lü</div>
+                            <div class="pub-venue">arXiv preprint</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/2505.06915" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv:2505.06915</a>
+                            </div>
+                        </li>
+                        
+                        <li class="publication-item">
+                            <span class="pub-title">Non-unique ergodicity for deterministic and stochastic 3D Navier-Stokes and Euler equations</span>
+                            <div class="pub-authors">with Martina Hofmanová, Xiangchan Zhu</div>
+                            <div class="pub-venue">Archive for Rational Mechanics and Analysis, (2025) 249:33</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/2208.08290" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                        
+                        <li class="publication-item">
+                            <span class="pub-title">Anomalous and total dissipation due to advection by solutions of randomly forced Navier-Stokes equations</span>
+                            <div class="pub-authors">with Martina Hofmanová, Umberto Pappalettera, Xiangchan Zhu</div>
+                            <div class="pub-venue">The Annals of applied probability, 35(5): 3119-3149</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/2305.08090" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                        
+                        <li class="publication-item">
+                            <span class="pub-title">Non-uniqueness of Leray-Hopf solutions for stochastic forced Navier-Stokes equations</span>
+                            <div class="pub-authors">with Martina Hofmanová, Xiangchan Zhu</div>
+                            <div class="pub-venue">Electron. J. Probab. 29 (2024) 195, 1-27</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/2309.03668" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                        
+                        <li class="publication-item">
+                            <span class="pub-title">Surface quasi-geostrophic equation perturbed by derivatives of space-time white noise</span>
+                            <div class="pub-authors">with Martina Hofmanová, Xiaoyutao Luo, Xiangchan Zhu</div>
+                            <div class="pub-venue">Mathematische Annalen 390:5111-5152, 2024</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/2309.03668" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                        
+                        <li class="publication-item">
+                            <span class="pub-title">A class of supercritical/critical singular stochastic PDEs: Existence, non-uniqueness, non-Gaussianity, non-unique ergodicity</span>
+                            <div class="pub-authors">with Martina Hofmanová, Xiangchan Zhu</div>
+                            <div class="pub-venue">J. Funct. Anal. 285(2023), no. 5, Paper No. 110011</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/2205.13378" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                        
+                        <li class="publication-item">
+                            <span class="pub-title">Non-uniqueness in law of stochastic 3D Navier-Stokes equations</span>
+                            <div class="pub-authors">with Martina Hofmanová, Xiangchan Zhu</div>
+                            <div class="pub-venue">J. Eur. Math. Soc. 26, 163--260 (2024)</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/1912.11841" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                        
+                        <li class="publication-item">
+                            <span class="pub-title">Global existence and non-uniqueness for 3D Navier-Stokes equations with space-time white noise</span>
+                            <div class="pub-authors">with Martina Hofmanová, Xiangchan Zhu</div>
+                            <div class="pub-venue">Archive for Rational Mechanics and Analysis, 247 (2023), no. 3, Paper No. 46</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/2112.14093" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                        
+                        <li class="publication-item">
+                            <span class="pub-title">Global-in-time probabilistically strong and Markov solutions to stochastic 3D Navier-Stokes equations: existence and non-uniqueness</span>
+                            <div class="pub-authors">with Martina Hofmanová, Xiangchan Zhu</div>
+                            <div class="pub-venue">The Annals of Probability, 2023, Vol. 51, No. 2, 524-579</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/2104.09889" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                        
+                        <li class="publication-item">
+                            <span class="pub-title">On ill- and well-posedness of dissipative martingale solutions to stochastic 3D Euler equations</span>
+                            <div class="pub-authors">with Martina Hofmanová, Xiangchan Zhu</div>
+                            <div class="pub-venue">Commun. Pure Appl. Math. Vol. LXXV, 2446--2510 (2022)</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/2009.09552" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                        
+                        <li class="publication-item">
+                            <span class="pub-title">Random attractor associated with the quasi-geostrophic equation</span>
+                            <div class="pub-authors">with Xiangchan Zhu</div>
+                            <div class="pub-venue">J. Dynam. Differential Equations 29, no. 1, 289--322, 2017</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/1303.5970" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                        
+                        <li class="publication-item">
+                            <span class="pub-title">Three dimensional Navier-Stokes equation driven by space-time white noise</span>
+                            <div class="pub-authors">with Xiangchan Zhu</div>
+                            <div class="pub-venue">Journal of Differential Equations, 259, 4443--4508, 2015</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/1406.0047" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                        
+                        <li class="publication-item">
+                            <span class="pub-title">Sub- and supercritical stochastic quasi-geostrophic equation</span>
+                            <div class="pub-authors">with Michael Röckner, Xiangchan Zhu</div>
+                            <div class="pub-venue">The Annals of Probability, 43, No. 3, 1202--1273, 2015</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/1110.1984" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                        
+                        <li class="publication-item">
+                            <span class="pub-title">Local existence and non-explosion of solutions for stochastic fractional partial differential equations driven by multiplicative noise</span>
+                            <div class="pub-authors">with Michael Röckner, Xiangchan Zhu</div>
+                            <div class="pub-venue">Stochastic Processes and their Applications, 124 1974--2002, 2014</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/1307.4392" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- General theory of SPDEs -->
+                <div class="publication-category">
+                    <h4>General Theory of SPDEs</h4>
+                    <ul class="publication-list">
+                        <li class="publication-item">
+                            <span class="pub-title">Global well-posedness for 2D generalized Parabolic Anderson Model via paracontrolled calculus</span>
+                            <div class="pub-authors">with Hao Shen, Xiangchan Zhu</div>
+                            <div class="pub-venue">To appear in Stochastics and Partial Differential Equations: Analysis and Computations</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/2402.19137" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                        
+                        <li class="publication-item">
+                            <span class="pub-title">Singular kinetic equations and applications</span>
+                            <div class="pub-authors">with Zimo Hao, Xicheng Zhang, Xiangchan Zhu</div>
+                            <div class="pub-venue">The Annals of Probability Vol. 52, No. 2, 576--657, 2024</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/2108.05042" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                        
+                        <li class="publication-item">
+                            <span class="pub-title">Gaussian fluctuations for interacting particle systems with singular kernels</span>
+                            <div class="pub-authors">with Zhenfu Wang, Xianliang Zhao</div>
+                            <div class="pub-venue">Archive for Rational Mechanics and Analysis, (2023) 247:101</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/2105.13201" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                        
+                        <li class="publication-item">
+                            <span class="pub-title">Singular HJB equations with applications to KPZ on the real line</span>
+                            <div class="pub-authors">with Xicheng Zhang, Xiangchan Zhu</div>
+                            <div class="pub-venue">Probability Theory and Related Fields, 183 no. 3-4, 789--869, 2022</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/2007.06783" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                        
+                        <li class="publication-item">
+                            <span class="pub-title">Conservative stochastic 2-dimensional Cahn-Hilliard equation</span>
+                            <div class="pub-authors">with Michael Röckner, Huanyu Yang</div>
+                            <div class="pub-venue">The Annals of Applied Probability, Vol. 31, No. 3, 1336-1375, 2021</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/1802.04141" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                        
+                        <li class="publication-item">
+                            <span class="pub-title">Stochastic heat equation for infinite string with values in manifold</span>
+                            <div class="pub-authors">with Xin Chen, Bo Wu, Xiangchan Zhu</div>
+                            <div class="pub-venue">Transactions of the American Mathematical Society, 374(1):407-452, 2021</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/1812.01942" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                        
+                        <li class="publication-item">
+                            <span class="pub-title">Stochastic Heat Equations with Values in a Manifold via Dirichlet Forms</span>
+                            <div class="pub-authors">with Michael Röckner, Bo Wu, Xiangchan Zhu</div>
+                            <div class="pub-venue">SIAM J. Math. Anal., 52(3):2237-2274, 2020</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/1711.09570" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                        
+                        <li class="publication-item">
+                            <span class="pub-title">The stochastic reflection problem on a convex set of a Hilbert space and BV functions in a Gelfand triple</span>
+                            <div class="pub-authors">with Michael Röckner, Xiangchan Zhu</div>
+                            <div class="pub-venue">The Annals of Probability, 40, 1759-1794, 2012</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/1011.3996" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </section>
         </div>
         
