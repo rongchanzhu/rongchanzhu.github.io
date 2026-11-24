@@ -216,6 +216,26 @@
             line-height: 1.4;
         }
         
+        .math-phi {
+            display: inline-flex;
+            align-items: center;
+            vertical-align: -0.08em;
+            white-space: nowrap;
+        }
+
+        .math-scripts {
+            display: inline-flex;
+            flex-direction: column;
+            margin-left: 0.04em;
+            font-size: 0.7em;
+            line-height: 0.8;
+        }
+
+        .math-scripts sup, .math-scripts sub {
+            font-size: 1em;
+            line-height: 0.8;
+        }
+
         .pub-authors {
             color: #666;
             margin-bottom: 5px;
@@ -386,17 +406,44 @@
                 <div class="publication-category">
                     <h4>Stochastic Quantization and Quantum Fields</h4>
                     <ul class="publication-list">
-                        <!-- 新增论文1 -->
+                        <li class="publication-item">
+                            <span class="pub-title">Derivation of the focusing <span class="math-phi" aria-label="Phi 1 to the power 6">Φ<span class="math-scripts"><sup>6</sup><sub>1</sub></span></span> measure in the optimal mass regime from many-body quantum Gibbs states</span>
+                            <div class="pub-authors">with Lin Lü, Phan Thành Nam</div>
+                            <div class="pub-venue">Accepted for publication in Communications in Mathematical Physics</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/2605.25755" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> arXiv:2605.25755</a>
+                            </div>
+                        </li>
+
+                        <li class="publication-item">
+                            <span class="pub-title">Makeenko-Migdal equations for 2D Yang-Mills: from lattice to continuum</span>
+                            <div class="pub-authors">with Hao Shen, Scott A. Smith</div>
+                            <div class="pub-venue">Accepted for publication in Communications in Mathematical Physics</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/2412.15422" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv:2412.15422</a>
+                            </div>
+                        </li>
+
                         <li class="publication-item">
                             <span class="pub-title">Makeenko-Migdal equations for lattice Yang-Mills-Higgs</span>
                             <div class="pub-authors">with Hao Shen, Scott Andrew Smith</div>
-                            <div class="pub-venue">arXiv preprint</div>
+                            <div class="pub-venue">Advanced Nonlinear Studies (2026)</div>
                             <div class="pub-links">
+                                <a href="https://doi.org/10.1515/ans-2023-0226" target="_blank" rel="noopener noreferrer"><i class="fas fa-book-open"></i> Journal</a>
                                 <a href="https://arxiv.org/abs/2512.00570" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv:2512.00570</a>
                             </div>
                         </li>
-                        
-                        <!-- 新增论文2 -->
+
+                        <li class="publication-item">
+                            <span class="pub-title">Langevin dynamics of lattice Yang-Mills-Higgs and applications</span>
+                            <div class="pub-authors">with Hao Shen, Xiangchan Zhu</div>
+                            <div class="pub-venue">Communications in Mathematical Physics 407, Article 27 (2026)</div>
+                            <div class="pub-links">
+                                <a href="https://doi.org/10.1007/s00220-025-05528-7" target="_blank" rel="noopener noreferrer"><i class="fas fa-book-open"></i> Journal</a>
+                                <a href="https://arxiv.org/abs/2401.13299" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                            </div>
+                        </li>
+
                         <li class="publication-item">
                             <span class="pub-title">Large N limit of the Langevin dynamics for the spin O(N) model</span>
                             <div class="pub-authors">with Wenjie Ye</div>
@@ -405,8 +452,6 @@
                                 <a href="https://arxiv.org/abs/2509.13817" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv:2509.13817</a>
                             </div>
                         </li>
-                        
-                        <!-- 新增论文3 -->
                         <li class="publication-item">
                             <span class="pub-title">Φ43 Theory from many-body quantum Gibbs states</span>
                             <div class="pub-authors">with Phan Thành Nam, Xiangchan Zhu</div>
@@ -415,31 +460,13 @@
                                 <a href="https://arxiv.org/abs/2502.04884" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv:2502.04884</a>
                             </div>
                         </li>
-                        
-                        <!-- 新增论文4 -->
-                        <li class="publication-item">
-                            <span class="pub-title">Makeenko-Migdal equations for 2D Yang-Mills: from lattice to continuum</span>
-                            <div class="pub-authors">with Hao Shen, Scott A. Smith</div>
-                            <div class="pub-venue">arXiv preprint</div>
-                            <div class="pub-links">
-                                <a href="https://arxiv.org/abs/2412.15422" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv:2412.15422</a>
-                            </div>
-                        </li>
-                        
-                        <li class="publication-item">
-                            <span class="pub-title">Langevin dynamics of lattice Yang-Mills-Higgs and applications</span>
-                            <div class="pub-authors">with Hao Shen, Xiangchan Zhu</div>
-                            <div class="pub-venue">To appear in Communications in Mathematical Physics</div>
-                            <div class="pub-links">
-                                <a href="https://arxiv.org/abs/2401.13299" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
-                            </div>
-                        </li>
-                        
+
                         <li class="publication-item">
                             <span class="pub-title">Large N limit and 1/N expansion of invariant observables in O(N) linear σ-model via SPDE</span>
                             <div class="pub-authors">with Hao Shen, Xiangchan Zhu</div>
-                            <div class="pub-venue">Probability Theory and Related Fields, 191, 2025, no.3-4, 853-932</div>
+                            <div class="pub-venue">Probability Theory and Related Fields 191(3–4), 853–932 (2025)</div>
                             <div class="pub-links">
+                                <a href="https://doi.org/10.1007/s00440-025-01361-0" target="_blank" rel="noopener noreferrer"><i class="fas fa-book-open"></i> Journal</a>
                                 <a href="https://arxiv.org/abs/2306.05166" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
                             </div>
                         </li>
@@ -531,6 +558,15 @@
                 <div class="publication-category">
                     <h4>Stochastic Fluid Dynamics</h4>
                     <ul class="publication-list">
+                        <li class="publication-item">
+                            <span class="pub-title">Kolmogorov 4/5 law for the forced 3D Navier–Stokes equations</span>
+                            <div class="pub-authors">with Martina Hofmanová, Umberto Pappalettera, Xiangchan Zhu</div>
+                            <div class="pub-venue">Stochastics and Partial Differential Equations: Analysis and Computations 13, 2085–2108 (2025)</div>
+                            <div class="pub-links">
+                                <a href="https://doi.org/10.1007/s40072-025-00380-1" target="_blank" rel="noopener noreferrer"><i class="fas fa-book-open"></i> Journal</a>
+                                <a href="https://arxiv.org/abs/2304.14470" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> arXiv:2304.14470</a>
+                            </div>
+                        </li>
                         <!-- 新增论文5 -->
                         <li class="publication-item">
                             <span class="pub-title">A proof of Onsager's conjecture for the stochastic 3D Euler equations</span>
@@ -544,8 +580,9 @@
                         <li class="publication-item">
                             <span class="pub-title">Non-unique ergodicity for deterministic and stochastic 3D Navier-Stokes and Euler equations</span>
                             <div class="pub-authors">with Martina Hofmanová, Xiangchan Zhu</div>
-                            <div class="pub-venue">Archive for Rational Mechanics and Analysis, (2025) 249:33</div>
+                            <div class="pub-venue">Archive for Rational Mechanics and Analysis 249, Article 33 (2025)</div>
                             <div class="pub-links">
+                                <a href="https://doi.org/10.1007/s00205-025-02102-2" target="_blank" rel="noopener noreferrer"><i class="fas fa-book-open"></i> Journal</a>
                                 <a href="https://arxiv.org/abs/2208.08290" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
                             </div>
                         </li>
@@ -553,8 +590,9 @@
                         <li class="publication-item">
                             <span class="pub-title">Anomalous and total dissipation due to advection by solutions of randomly forced Navier-Stokes equations</span>
                             <div class="pub-authors">with Martina Hofmanová, Umberto Pappalettera, Xiangchan Zhu</div>
-                            <div class="pub-venue">The Annals of applied probability, 35(5): 3119-3149</div>
+                            <div class="pub-venue">The Annals of Applied Probability 35(5), 3119–3149 (2025)</div>
                             <div class="pub-links">
+                                <a href="https://doi.org/10.1214/25-AAP2168" target="_blank" rel="noopener noreferrer"><i class="fas fa-book-open"></i> Journal</a>
                                 <a href="https://arxiv.org/abs/2305.08090" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
                             </div>
                         </li>
@@ -573,7 +611,7 @@
                             <div class="pub-authors">with Martina Hofmanová, Xiaoyutao Luo, Xiangchan Zhu</div>
                             <div class="pub-venue">Mathematische Annalen 390:5111-5152, 2024</div>
                             <div class="pub-links">
-                                <a href="https://arxiv.org/abs/2309.03668" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                                <a href="https://arxiv.org/abs/2308.14358" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
                             </div>
                         </li>
                         
@@ -665,10 +703,29 @@
                     <h4>General Theory of SPDEs</h4>
                     <ul class="publication-list">
                         <li class="publication-item">
+                            <span class="pub-title">Global well-posedness for generalized parabolic Anderson model on the whole plane</span>
+                            <div class="pub-authors">with Hao Shen, Xiangchan Zhu</div>
+                            <div class="pub-venue">Accepted for publication in Probability Theory and Related Fields</div>
+                            <div class="pub-links">
+                                <a href="https://arxiv.org/abs/2606.26681" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> arXiv:2606.26681</a>
+                            </div>
+                        </li>
+
+                        <li class="publication-item">
+                            <span class="pub-title">Mean-Field Limit of Nonexchangeable Interacting Diffusions with Singular Kernels</span>
+                            <div class="pub-authors">with Zhenfu Wang, Xianliang Zhao</div>
+                            <div class="pub-venue">SIAM Journal on Mathematical Analysis 58(3), 2375–2418 (2026)</div>
+                            <div class="pub-links">
+                                <a href="https://doi.org/10.1137/24M168129X" target="_blank" rel="noopener noreferrer"><i class="fas fa-book-open"></i> Journal</a>
+                                <a href="https://arxiv.org/abs/2209.14002" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> arXiv:2209.14002</a>
+                            </div>
+                        </li>
+                        <li class="publication-item">
                             <span class="pub-title">Global well-posedness for 2D generalized Parabolic Anderson Model via paracontrolled calculus</span>
                             <div class="pub-authors">with Hao Shen, Xiangchan Zhu</div>
-                            <div class="pub-venue">To appear in Stochastics and Partial Differential Equations: Analysis and Computations</div>
+                            <div class="pub-venue">Stochastics and Partial Differential Equations: Analysis and Computations 14, 133–160 (2026)</div>
                             <div class="pub-links">
+                                <a href="https://doi.org/10.1007/s40072-025-00358-z" target="_blank" rel="noopener noreferrer"><i class="fas fa-book-open"></i> Journal</a>
                                 <a href="https://arxiv.org/abs/2402.19137" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>
                             </div>
                         </li>
@@ -787,7 +844,11 @@
                 </div>
                 <div class="service-item">
                     <div class="service-title">Editorial Board Member</div>
-                    <div class="service-details">Frontier of Mathematics (2023- )</div>
+                    <div class="service-details">Journal of Theoretical Probability (since January 2026)</div>
+                </div>
+                <div class="service-item">
+                    <div class="service-title">Editorial Board Member</div>
+                    <div class="service-details">Frontiers of Mathematics (2023–present)</div>
                 </div>
             </section>
             
@@ -816,7 +877,7 @@
     </div>
     
     <footer>
-        <p>© 2025 Rongchan Zhu. Last updated: June 2024</p>
+        <p>© 2026 Rongchan Zhu. Last updated: November 24, 2026</p>
         <p>This page is hosted on GitHub Pages. For a complete list of publications, please contact me directly.</p>
     </footer>
 </body>
